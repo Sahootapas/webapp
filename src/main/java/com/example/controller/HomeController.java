@@ -11,7 +11,7 @@ public class HomeController {
     
     @GetMapping("/")
     public String home(Model model) {
-        model.addAttribute("message", "Welcome to My Web Application!");
+        model.addAttribute("message", "Welcome to My Web Applicationv17!");
         return "index";
     }
     
